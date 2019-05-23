@@ -1,0 +1,137 @@
+body {
+    background-color: #FEE9DE; 
+}
+
+footer {
+    font-family: "Didot", "Times New Roman", "Serif";
+    font-size: 15px;
+    text-align: center;
+}
+
+h1 {
+
+}
+
+h2 {
+    font-family: "Avenir", "Arial", "Sans Serif";
+    font-size: 22px;
+    font-style: bold;
+    color: #0C1C43;
+    letter-spacing: 4px;
+}
+
+h3 {
+    font-family: "Didot", "Times New Roman", "Serif";
+    font-style: italic;
+    font-size: 19px;
+    color: #0C1C43;
+}
+
+#logo {
+    width: 35%;
+    padding: 50px 0px 0px 0px;
+    position: fixed;
+}
+
+#frame {
+    width: 40%;
+    padding: 20px;
+
+}
+
+.introduction {
+    background-color: white;
+    width: 60%;
+    margin: 50px 5% 50px auto;
+    padding: 20px;
+    text-align: right;
+    border: 20px solid #EC5223;
+
+}
+
+.introduction p {
+    font-family: "Didot", "Times New Roman", "Serif";
+    font-style: italic;
+    font-size: 25px;
+    color: #0C1C43;
+    line-height: 40px;
+    width: 50%;
+    text-align: right;
+    display: inline-block;
+    float: bottom left;
+    padding-right: 20px;
+    
+}
+
+.about {
+    width: 30%;
+    background-color: white;
+    text-align: center;
+    border: 20px solid #FEE9DE;
+    margin: 50px 20% 50px auto;
+    padding: 20px;
+    font-family: "Avenir", "Courier New", "Sans Serif";
+    color: #0C1C43;
+
+}
+
+.bullet-list {
+    text-align: left;
+    margin: 10px;
+    line-height: 35px;
+}
+
+#leaves {
+    position: fixed;
+    top: 50%;        
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translate(-50%, -50%);
+}
+
+
+.favorites {
+    width: 60%;
+    background-color: white;
+    margin: 50px 5% 50px auto;
+    border: 20px solid #EC5223;
+    padding: 20px;
+    text-align: center;
+}
+
+.emojis {
+    text-align: center;
+    padding: 20px;
+}
+
+.emojisImages {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+#kiss {
+    width: 160px;
+    height: 100%;
+    cursor: pointer;
+}
+
+#upsidedown {
+    width: 160px;
+    height: 100%;
+    cursor: pointer;
+}
+
+#wine {
+    width: 160px;
+    height: 100%;
+    cursor: pointer;
+}
+
+.gif {
+    text-align: center;
+}
